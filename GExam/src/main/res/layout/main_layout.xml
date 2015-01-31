@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#e9ecec">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:id="@+id/imageView"
+            android:src="@drawable/logo_new"
+            android:layout_marginBottom="70dp"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Teacher"
+            android:id="@+id/btnTeacherLogin"
+            android:layout_gravity="center_horizontal"
+            android:typeface="serif"
+            android:background="#336699"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Student"
+            android:id="@+id/btnStudentLogin"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:typeface="serif"
+            android:visibility="visible"
+            android:textColor="#ffffff"
+            android:background="#336699" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/txtOnline"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp" />
+</RelativeLayout>

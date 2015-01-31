@@ -1,0 +1,149 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="app.GKO.GExam"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-sdk android:minSdkVersion="11"
+        android:targetSdkVersion="19"/>
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+
+    <application android:allowBackup="true"
+        android:icon="@drawable/icon_new"
+        android:theme="@style/AppTheme"
+        android:label="@string/app_name"
+
+
+        android:clearTaskOnLaunch="true"> // Start at root activity everytime when open app from background
+
+        <activity android:name=".SplashScreenActivity"
+            android:theme="@style/GKOTheme">
+
+            <intent-filter>
+
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER" />
+
+            </intent-filter>
+
+
+        </activity>
+
+        <activity android:name=".MainActivity"
+
+            >
+
+            </activity>
+
+        <activity android:name=".TeacherLoginActivity"
+            android:theme="@style/GKOTheme"
+            >
+
+
+        </activity>
+
+        <activity android:name=".StudentLoginActivity"
+            android:theme="@style/GKOTheme"
+            >
+
+
+        </activity>
+
+        <activity android:name=".TeacherSmallScaleQuestionPage"
+            android:windowSoftInputMode="stateHidden|adjustPan"
+            >
+
+
+        </activity>
+
+        <activity android:name=".StudentSmallScaleAnswerPage"
+            >
+
+
+        </activity>
+
+        <activity android:name=".TeacherGeneralITQuestionPage"
+            >
+
+
+        </activity>
+
+        <activity android:name=".StudentGeneralITAnswerActivity"
+            >
+
+            
+        </activity>
+
+        <activity android:name=".ListQuestionAcitivity"
+            >
+
+
+        </activity>
+
+        <activity android:name=".InfoQuestionActivity"
+            >
+
+
+        </activity>
+
+        <activity android:name=".ListStudentSmallScaleActivity"
+            >
+
+
+        </activity>
+
+        <activity android:name=".InfoStudentActivity"
+            >
+
+        </activity>
+
+        <activity android:name=".ListGeneralitQuestionActivity"
+            >
+
+        </activity>
+
+        <activity android:name=".ListGeneralStudentActivity"
+            >
+
+        </activity>
+
+        <activity android:name=".WarningActivity"
+            >
+
+        </activity>
+
+        <activity android:name=".ExitAcitivity"
+            >
+
+        </activity>
+
+        <activity android:name=".ClassListGeneralIT">
+
+
+        </activity>
+
+        <activity android:name=".ClassListSmallScale">
+
+
+        </activity>
+
+        <activity android:name=".TabsSmallScaleActivity">
+
+        </activity>
+
+        <activity android:name=".TabsGeneralITActivity">
+
+
+        </activity>
+
+        <activity android:name=".AboutActivity"
+            android:theme="@style/GKOTheme">
+
+        </activity>
+
+
+    </application>
+
+</manifest>

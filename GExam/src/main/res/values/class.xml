@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="my_class">
+
+        <item>3IT-1</item>
+        <item>3IT-2</item>
+        <item>3IT-3</item>
+        <item>3COM</item>
+
+
+
+
+
+
+
+    </string-array>
+
+
+</resources>
